@@ -320,8 +320,9 @@
     padding: 20px;
   }
   
-  .section_1_text {
+  .section_1_text {    
     padding-left: 110px;
+    margin-right: 40px;
     margin-top: -75px;
   }
   
@@ -334,6 +335,7 @@
   
   .section_2_text {
     padding-left: 110px;
+    margin-right: 40px;
     margin-top: -75px;
   }
   
@@ -346,6 +348,7 @@
   
   .section_3_text {
     padding-left: 110px;
+    margin-right: 40px;
     margin-top: -70px;
   }
   
@@ -358,6 +361,7 @@
   
   .section_4_text {
     padding-left: 110px;
+    margin-right: 40px;
     margin-top: -75px;
   }
   
@@ -370,6 +374,7 @@
   
   .section_5_text {
     padding-left: 110px;
+    margin-right: 40px;
     margin-top: -80px;
   }
   
@@ -381,7 +386,8 @@
   }
   
   .section_6_text {
-    padding-left: 110px;    
+    padding-left: 110px; 
+    margin-right: 40px;   
   }
   
   .section_7 {
@@ -394,6 +400,7 @@
   .section_7_text {
     padding-left: 110px;
     margin-top: -70px;
+    margin-right: 40px;
   }
   
   .section_8 {
@@ -406,6 +413,7 @@
   .section_8_text {
     padding-left: 110px;
     margin-top: -80px;
+    margin-right: 40px;
   }
   
   .section_9 {
@@ -418,6 +426,7 @@
   .section_9_text {
     padding-left: 110px;
     margin-top: -70px;
+    margin-right: 40px;
   }
   
   .section_10 {
@@ -430,6 +439,7 @@
   .section_10_text {
     padding-left: 110px;
     margin-top: -70px;
+    margin-right: 40px;
   }
   
   .section_11 {
@@ -442,6 +452,7 @@
   .section_11_text {
     padding-left: 110px;
     margin-top: -70px;
+    margin-right: 40px;
   }
   
   .form_section {
@@ -508,9 +519,13 @@
   }
 }
 
-@media (max-width: 651px) and (min-width: 319px) {  
+@media (max-width: 651px) and (min-width: 319px) { 
+  
+  .body {
+    width: 100%;
+  }
     
-  ..header {
+  .header {
     height: 40px;
     padding: 10px;
     background: #3030c1;
